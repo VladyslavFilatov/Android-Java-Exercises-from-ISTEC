@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".Alfa">
+
+    <TextView
+        android:id="@+id/txt_txt_alfa"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:text="Alfa"
+        android:textSize="33sp"></TextView>
+
+    <Button
+        android:id="@+id/bt_toast_alfa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:onClick="myToast"
+        android:text="Toast"
+        android:textSize="12sp"></Button>
+
+    <Button
+        android:id="@+id/bt_snackbar_alfa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="SnackBar"
+        android:textSize="12sp"></Button>
+
+    <Button
+        android:id="@+id/bt_alerta_alfa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Alerta"
+        android:textSize="12sp"></Button>
+
+    <Button
+        android:id="@+id/bt_Main_alfa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="MainActivity"
+        android:textSize="12sp"></Button>
+
+    <Button
+        android:id="@+id/bt_close_alfa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Close"
+        android:textSize="12sp"></Button>
+
+
+</FrameLayout>

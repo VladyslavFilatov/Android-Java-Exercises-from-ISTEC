@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".umm">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="33sp"
+        android:gravity="center_horizontal"
+        android:layout_margin="22dp"
+        android:text="Fragmento Um" />
+
+    <Button
+        android:id="@+id/bt_next_frag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="33sp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"></Button>
+
+
+</FrameLayout>

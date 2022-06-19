@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegador"
+    app:startDestination="@id/umm">
+    <fragment
+        android:id="@+id/umm"
+        android:name="com.example.dios_2.umm"
+        android:label="fragment_umm"
+        tools:layout="@layout/fragment_umm">
+        <action
+            android:id="@+id/action_umm_to_dois"
+            app:destination="@id/dois" />
+    </fragment>
+    <fragment
+        android:id="@+id/dois"
+        android:name="com.example.dios_2.Dois"
+        android:label="fragment_dois"
+        tools:layout="@layout/fragment_dois" >
+        <action
+            android:id="@+id/action_dois_to_umm"
+            app:destination="@id/umm" />
+    </fragment>
+</navigation>

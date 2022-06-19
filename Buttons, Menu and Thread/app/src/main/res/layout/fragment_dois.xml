@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".Dois">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="33sp"
+        android:gravity="center_horizontal"
+        android:layout_margin="22dp"
+        android:text="Fragmento Dois" />
+
+    <Button
+        android:id="@+id/bt_next_frag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:textSize="33sp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"></Button>
+
+</FrameLayout>
